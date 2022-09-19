@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+:root {
+    --heading-font: 'Alata', sans-serif;
+    --body-font: 'Josefin Sans', sans-serif;
+    --body-font-size: 15px;
+    --heading-1: 3.8rem;
+    --tablet-heading-size: 2.8rem;
+    --mobile-heading-size: 1.8;
+    --heading-2: 1.8rem;
+    --tablet-heading-2: 1.4rem;
+    --mobile-heading-2: 1rem;
+    --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+}
+
+main {
+    background: url(./images/desktop/image-hero.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 73vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    top: 8%;
+    right: 7%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navlinks {
+    width: max-content;
+    display: flex;
+    font-family: var(--body-font);
+}
+
+.navlinks > ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navlinks > ul > li {
+    list-style: none;
+}
+
+.navlinks > ul > li > a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.description {
+    height: 45%;
+    width: 45%;
+    border: 2px solid var(--white);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35%;
+    left: 12%;
+}
+
+.description > h1 {
+    font-size: var(--heading-1);
+    text-align: left;
+    margin-left: 1.5rem;
+    color: var(--white);
+    font-family: var(--body-font);
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
