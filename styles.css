@@ -179,7 +179,7 @@ nav {
     height: 15%;
 }
 
-.top-section > h1 {
+.top-section > p {
     font-size: var(--heading-2);
     text-transform: uppercase;
     font-weight: 300;
@@ -225,7 +225,7 @@ nav {
 }
 
 
-.slider-inner > h1 {
+.slider-inner > h2 {
     font-size: var(--heading-2);
     color: var(--white);
     font-family: var(--body-font);
