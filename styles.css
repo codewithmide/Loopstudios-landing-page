@@ -354,7 +354,7 @@ footer {
 }
 
 @media only screen 
-  and (min-device-width: 768px) 
+  and (min-device-width: 700px) 
   and (max-device-width: 1024px) {
     nav {
         width: 85%;
@@ -419,5 +419,14 @@ footer {
 
     .copyright > p {
         font-size: var(--tablet-body-font-size);
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(-850%);
+        }
+        100% {
+            transform: translateX(375%);
+        }
     }
 }
