@@ -296,7 +296,6 @@ footer {
     width: 80%;
     height: 50%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -311,11 +310,17 @@ footer {
     cursor: pointer;
 }
 
-.top-footer-container,
-.bottom-footer-container {
+.left-footer-container,
+.right-footer-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    width: 50%;
+    height: 100%;
+}
+
+.right-footer-container {
+    align-items: flex-end;
 }
 
 .copyright > p {
