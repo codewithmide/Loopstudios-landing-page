@@ -135,7 +135,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     padding: 4.5rem 0 0 4.5rem;
     background-color: var(--white);
 }
@@ -379,6 +380,10 @@ footer {
         font-size: var(--tablet-heading-size);
     }
 
+    .description > p {
+        font-size: var(--tablet-body-font-size);
+    }
+
     .about-container {
         width: 85%;
     }
@@ -390,11 +395,16 @@ footer {
     .text-interactive {
         width: 50%;
         height: 60%;
-        padding: 2.5rem 0 0 2.5rem;
+        gap: 2rem;
+        padding: 3.5rem 0 0 3.5rem;
     }
     
     .text-interactive > h1 {
         font-size: var(--tablet-heading-2);
+    }
+
+    .text-interactive > p {
+        font-size: var(--tablet-body-font-size);
     }
     
     .top-section {
