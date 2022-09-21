@@ -559,10 +559,23 @@ footer {
         font-size: var(--tablet-heading-2);
         left: 1rem;
     }
+
+    .mobile-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
-    .button {
-        padding: 8px 20px;
+    .mobile-btn {
+        padding: 8px 15px;
         letter-spacing: .5px;
+        text-transform: uppercase;
+        font-size: var(--tablet-body-font-size);
+        background-color: transparent;
+        border: 1px solid var(--black);
+        font-family: var(--body-font);
+        color: var(--black);
     }
     
     .slider-section {
@@ -577,10 +590,10 @@ footer {
 
     @keyframes scroll {
         0% {
-            transform: translateX(-850%);
+            transform: translateX(-950%);
         }
         100% {
-            transform: translateX(300%);
+            transform: translateX(150%);
         }
     }
   }
