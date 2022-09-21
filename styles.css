@@ -418,7 +418,7 @@ footer {
         margin-bottom: 2rem;
     }
     
-    .top-section > h1 {
+    .top-section > p {
         font-size: var(--tablet-heading-2);
     }
     
@@ -577,7 +577,7 @@ footer {
         text-align: center;
     }
     
-    .top-section > h1 {
+    .top-section > p {
         font-size: var(--tablet-heading-2);
         width: 100%;
         text-align: center;
