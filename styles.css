@@ -77,6 +77,11 @@ nav {
     font-weight: 400;
 }
 
+.navlinks > ul > li > a:hover {
+    border-width: 2rem;
+    border-bottom: 1px solid var(--white);
+}
+
 .description {
     height: 45%;
     width: 40%;
@@ -325,6 +330,7 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
+    font-family: var(--body-font);
     color: var(--body-font-color);
 }
 
